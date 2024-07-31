@@ -34,3 +34,83 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.header {
+  margin-top: 30px;
+}
+
+.header__top {
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 465px;
+}
+
+.header__logo {
+  margin-top: 4px;
+}
+
+.header__phone_link {
+  font-weight: 500;
+  font-size: 20px;
+  color: #666;
+}
+
+.header__login {
+  display: flex;
+  align-items: center;
+}
+
+.header__account-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #c93;
+}
+
+.header__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-radius: 15px;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.header__nav {}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  width: 687px;
+}
+
+.nav__item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666;
+}
+
+.header__buttons {
+  margin-right: 5px;
+}
+
+.header__button {
+  font-weight: 400;
+  font-size: 16px;
+  color: #c93;
+  border-radius: 10px;
+  padding: 13px 20px;
+  border: 1px solid #c93;
+  background: #fff;
+  margin-right: 40px;
+  cursor: pointer;
+}
