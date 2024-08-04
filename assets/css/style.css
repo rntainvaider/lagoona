@@ -29,6 +29,12 @@ img {
   max-width: 100%;
 }
 
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   max-width: 1200px;
   padding: 0 15px;
@@ -36,24 +42,20 @@ img {
 }
 
 .header {
-  margin-top: 30px;
+  padding-bottom: 70px;
 }
 
 .header__top {
   height: 54px;
   display: flex;
   justify-content: space-between;
+  margin: 30px 0;
 }
 
 .header__inner {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 465px;
-}
-
-.header__logo {
-  margin-top: 4px;
+  gap: 40px;
 }
 
 .header__phone_link {
@@ -79,28 +81,23 @@ img {
   align-items: center;
   background: #fff;
   border-radius: 15px;
-  height: 70px;
-  margin-top: 30px;
+  padding: 14px 45px;
 }
-
-.header__nav {}
 
 .nav__list {
   display: flex;
-  justify-content: space-around;
-  padding-left: 0;
-  width: 687px;
+  gap: 45px;
 }
 
 .nav__item {
-  list-style-type: none;
   font-weight: 400;
   font-size: 16px;
   color: #666;
 }
 
 .header__buttons {
-  margin-right: 5px;
+  display: flex;
+  gap: 40px;
 }
 
 .header__button {
@@ -111,6 +108,5 @@ img {
   padding: 13px 20px;
   border: 1px solid #c93;
   background: #fff;
-  margin-right: 40px;
   cursor: pointer;
 }
