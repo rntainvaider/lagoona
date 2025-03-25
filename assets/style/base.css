@@ -1,0 +1,26 @@
+body {
+    font-family: var(--font-family);
+    background: var(--color-light-gray);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.interactive {
+    padding: 0 5px;
+    transition: 0.5s;
+}
+
+.interactive:hover {
+    color: var(--secondary);
+}
+
+.interactive:focus {
+    outline: 1px solid var(--secondary);
+}
+
+.interactive:active {
+    color: var(--tertiary));
+}

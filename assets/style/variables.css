@@ -1,0 +1,17 @@
+:root {
+    --primary: #f0bf5f;
+    --secondary: #c93;
+    --tertiary: #a47312;
+    --background-light: #cee8fa;
+    --text-dark: #000000;
+    --gradient: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%);
+    --light-gray: #f1f1f1;
+    --gray: #e9e9e9;
+    --muted: #999999;
+    --medium-gray: #666666;
+    --dark-gray: #333333;
+    --white: #fff;
+
+    --font-family: "Muller", sans-serif;
+    --second-family: "Montserrat", sans-serif;
+}

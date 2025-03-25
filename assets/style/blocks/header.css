@@ -1,0 +1,65 @@
+.header {}
+
+/* HEADER TOP */
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__phone-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--medium-gray);
+    padding: 5px 5px 0 5px;
+    transition: 0.5s;
+}
+
+.header__phone-link:hover {
+    color: var(--secondary);
+}
+
+.header__phone-link:focus {
+    outline: 1px solid var(--secondary);
+}
+
+.header__phone-link:active {
+    color: var(--tertiary);
+}
+
+.header__account-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 5px;
+    transition: 0.5s;
+}
+
+.header__account-link:hover .header__account-text {
+    color: var(--secondary);
+}
+/*
+.interactive:focus {
+    outline: 1px solid var(--secondary);
+}
+
+.interactive:active {
+    color: var(--tertiary));
+} */
+
+.header__acount-icon {
+    color: var(--secondary);
+}
+
+.header__account-text {
+    color: var(--secondary);
+}
