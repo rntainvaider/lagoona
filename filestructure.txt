@@ -1,0 +1,28 @@
+|-- assets
+    |-- fonts
+        |-- Montserrat
+            |-- Montserrat-Bold.woff
+            |-- Montserrat-Bold.woff2
+        |-- Muller
+            |-- MullerBold.woff
+            |-- MullerBold.woff2
+            |-- MullerMedium.woff
+            |-- MullerMedium.woff2
+            |-- MullerRegular.woff
+            |-- MullerRegular.woff2
+    |-- icons
+        |-- favicon.png
+        |-- header
+            |-- sprite.svg
+    |-- images
+        |-- logo.svg
+    |-- style
+        |-- base.css
+        |-- blocks
+            |-- header.css
+            |-- module.css
+        |-- fonts.css
+        |-- index.css
+        |-- reset.css
+        |-- variables.css
+|-- index.html

@@ -1,0 +1,43 @@
+body {
+    font-family: var(--font-family);
+    background: var(--light-gray);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.interactive {
+    padding: 0 5px;
+    transition: 0.5s;
+}
+
+.interactive:hover {
+    color: var(--secondary);
+}
+
+.interactive:focus {
+    outline: 1px solid var(--secondary);
+}
+
+.interactive:active {
+    color: var(--tertiary);
+}
+
+.global-button {
+    border: 1px solid var(--secondary);
+    border-radius: 10px;
+    color: var(--secondary);
+    transition: 0.5s;
+}
+
+.global-button:hover {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+.global-button:active {
+    background-color: var(--tertiary);
+    border: 1px solid var(--tertiary);
+}
