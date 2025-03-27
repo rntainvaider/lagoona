@@ -1,4 +1,6 @@
-.header {}
+.header {
+    margin-bottom: 70px;
+}
 
 /* HEADER TOP */
 
@@ -63,12 +65,12 @@
 }
 
 .header__account-link:hover .header__account-text,
-.header__account-link:hover .header__acount-icon {
+.header__account-link:hover .header__acсount-icon {
     color: var(--primary);
 }
 
 .header__account-link:active .header__account-text,
-.header__account-link:active .header__acount-icon {
+.header__account-link:active .header__acсount-icon {
     color: var(--tertiary);
 }
 
