@@ -28,12 +28,12 @@
     transition: 0.5s;
 }
 
-.header__phone-link:hover {
-    color: var(--secondary);
+.header__phone-link:focus-visible {
+    outline: 1px solid var(--secondary);
 }
 
-.header__phone-link:focus {
-    outline: 1px solid var(--secondary);
+.header__phone-link:hover {
+    color: var(--secondary);
 }
 
 .header__phone-link:active {
@@ -58,7 +58,7 @@
     transition: 0.5s;
 }
 
-.header__account-link:focus {
+.header__account-link:focus-visible {
     outline: 1px solid var(--secondary);
 }
 
@@ -94,7 +94,7 @@
     padding: 5px 5px 3px 5px;
 }
 
-.header__link:focus {
+.header__link:focus-visible {
     outline: 1px solid var(--secondary);
 }
 
